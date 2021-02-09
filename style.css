@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  background-color: orange;
+  width: 40px;
+  height: 40px;
+  border: 3px solid black;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.BirdGame {
+  background-color: skyblue;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.watch {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  border: 3px solid black;
+  line-height: 50px;
+  margin: auto;
+}
+
+.bird {
+  width: 60px;
+  height: 50px;
+  transform: translate(200px, 200px);
+}
+
+.birdImg {
+  width: 100%;
+  height: 100%;
+}
+
+.cloud {
+  width: 120px;
+  height: 80px;
+
+  margin: 3px;
+  transform: translate(1000px, 0px);
+}
+
+.cloudImg {
+  width: 100%;
+  height: 100%;
+}
+
+.replay {
+  display: none;
+}
